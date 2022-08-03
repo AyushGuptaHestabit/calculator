@@ -1,16 +1,18 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+// import logo from './logo.svg';
 import './App.css';
-import FunctionCounter from './components/FunctionCounter';
-import ClassCounter from './components/ClassCounter';
+import Calculator from './components/Calculator';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Counter</h1>
-        <div style={{ display: 'flex' }}>
-          <FunctionCounter />
-          <ClassCounter />
+        <div className='container my-5'>
+          <div className='row my-5'>
+            <h1>Calculator</h1>
+            <Calculator />
+          </div>
         </div>
       </header>
     </div>
