@@ -1,6 +1,6 @@
 {
   "homepage": "http://AyushGuptaHestabit.github.io/calculator",
-  "name": "counter",
+  "name": "calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
